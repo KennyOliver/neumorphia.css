@@ -7,6 +7,8 @@
 
 [![repl](https://repl.it/badge/github/KennyOliver/neuomorphic-design)](https://repl.it/@KennyOliver/neuomorphic-design)
 
+[![Website Link](https://img.shields.io/badge/See%20It%20Yourself-252525?style=for-the-badge&logo=safari&logoColor=white&link=https://neuomorphic-design.kennyoliver.repl.co)](https://neuomorphic-design.kennyoliver.repl.co)
+
 A website based upon neuomorphic design
 
 ---
