@@ -26,7 +26,7 @@ hr {
 
 
 
-/* concave and convex */
+/* concave, convex, inset, outset, flat */
 .concave {
   background: linear-gradient(135deg, rgba(0,0,0,0.2), rgba(255,255,255,0.3));
   box-shadow:
@@ -44,6 +44,22 @@ hr {
 }
 .convex:hover {
   background: linear-gradient(135deg, rgba(0,0,0,0.2), rgba(255,255,255,0.3));
+}
+.inset {
+  box-shadow:
+    inset 3px 3px 4px 0 rgba(0,0,0,0.2),
+    inset -2px -2px 3px 0 rgba(255,255,255,0.2);
+}
+.outset {
+  box-shadow:
+    inset 3px 3px 4px 0 rgba(255,255,255,0.2),
+    inset -2px -2px 3px 0 rgba(0,0,0,0.2);
+}
+.flat {
+  background: rgba(128,128,128,0.1);
+  box-shadow:
+    12px 12px 16px 0 rgba(0,0,0,0.3),
+    -8px -8px 12px 0 rgba(255,255,255,0.3);
 }
 
 
@@ -66,23 +82,7 @@ hr {
 
 
 
-/* inset, outset, flat */
-.inset {
-  box-shadow:
-    inset 3px 3px 4px 0 rgba(0,0,0,0.2),
-    inset -2px -2px 3px 0 rgba(255,255,255,0.2);
-}
-.outset {
-  box-shadow:
-    inset 3px 3px 4px 0 rgba(255,255,255,0.2),
-    inset -2px -2px 3px 0 rgba(0,0,0,0.2);
-}
-.flat {
-  background: rgba(128,128,128,0.1);
-  box-shadow:
-    12px 12px 16px 0 rgba(0,0,0,0.3),
-    -8px -8px 12px 0 rgba(255,255,255,0.3);
-}
+
 
 
 
