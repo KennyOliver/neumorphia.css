@@ -65,17 +65,17 @@ hr {
 
 
 /* in-out animations */
-.go-in {
+.shrink {
   transition: all .5s ease-in-out; /* for animation to work in reverse too */
 }
-.go-in:hover {
+.shrink:hover {
   transform: scale(0.9);
   transition: .5s;
 }
-.go-out {
+.grow {
   transition: all .5s ease-in-out;
 }
-.go-out:hover {
+.grow:hover {
   transform: scale(1.1);
   transition: .5s;
 }
