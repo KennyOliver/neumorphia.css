@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+::root {
+  
+}
+
 body {
   background: #75AFD2;
   display: flex;
@@ -41,4 +45,9 @@ hr {
   border-radius: 40px;
   height: 50px;
   width: 100px;
+}
+.circle {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
 }
