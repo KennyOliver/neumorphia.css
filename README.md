@@ -1,4 +1,4 @@
-# neuomorphic-design
+# neumorphic-design
 
 ![CodeFactor](https://www.codefactor.io/repository/github/KennyOliver/neumorphic-design/badge?style=for-the-badge)
 ![Latest SemVer](https://img.shields.io/github/v/tag/KennyOliver/neumorphic-design?label=version&sort=semver&style=for-the-badge)
