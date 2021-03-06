@@ -8,7 +8,7 @@ body {
   background: #75AFD2;
   font-family: 'Montserrat', sans-serif;
   height: 100%;
-  margin: 20px;
+  margin: 20 auto;
 }
 hr {
   border: 2px solid rgb(255,255,255,0.2);
@@ -36,26 +36,26 @@ hr {
 .chunk {
   margin: auto;
 }
-.squircle {
-  border-radius: 30%;
-  display: inline-block;
-  height: 50px;
-  width: 50px;
+.section {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
 }
 .pill {
   border-radius: 40px;
   height: 50px;
   width: 120px;
 }
+.squircle {
+  border-radius: 30%;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
 .circle {
   border-radius: 50%;
   display: inline-block;
   height: 50px;
   width: 50px;
-}
-.section {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  width: 100%;
 }
