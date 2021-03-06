@@ -16,6 +16,19 @@ hr {
 
 
 
+/* neumorphic general styling */
+.neu {
+  color: white;
+  font-size: 150%;
+  line-height: 50px; /* same as height */
+  margin: 10px;
+  text-align: center;
+  vertical-align: middle; /* align text in center */
+}
+
+
+
+/* concave and convex */
 .concave {
   background: linear-gradient(135deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
   box-shadow:
@@ -39,6 +52,7 @@ hr {
 
 
 
+/* in-out animations */
 .go-in:hover {
   transform: scale(0.9);
   transition: .5s;
@@ -50,6 +64,7 @@ hr {
 
 
 
+/* inset, outset, flat */
 .inset {
   box-shadow:
     inset 3px 3px 4px 0 rgba(0,0,0,0.1),
@@ -69,17 +84,7 @@ hr {
 
 
 
-.neu {
-  color: white;
-  font-size: 150%;
-  line-height: 50px; /* same as height */
-  margin: 10px;
-  text-align: center;
-  vertical-align: middle; /* align text in center */
-}
-
-
-
+/* containers */
 .section {
   display: flex;
   justify-content: center;
@@ -97,6 +102,7 @@ hr {
 
 
 
+/* shapes */
 .pill {
   border-radius: 40px;
   height: 50px;
