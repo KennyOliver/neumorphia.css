@@ -10,7 +10,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   height: 100%;
   justify-content: center;
-  margin: 50px;
+  margin: 20px;
 }
 hr {
   border: 2px solid rgb(255,255,255,0.2);
@@ -27,7 +27,8 @@ hr {
   font-size: 150%;
   justify-content: center;
   line-height: 50px; /* same as height */
-  margin: auto;
+  margin: 10px;
+  text-align: center;
   transition: all .5s ease-in-out;
   vertical-align: middle; /* align text in center */
 }
@@ -35,6 +36,9 @@ hr {
   background: linear-gradient(135deg, rgba(255,255,255,0.22), rgba(0,0,0,0.25));
   transform: scale(1.1);
   transition: .5s;
+}
+.chunk {
+  margin: auto;
 }
 .squircle {
   border-radius: 30%;
@@ -44,10 +48,11 @@ hr {
 .pill {
   border-radius: 40px;
   height: 50px;
-  width: 100px;
+  width: 120px;
 }
 .circle {
   border-radius: 50%;
+  display: inline-block;
   height: 50px;
   width: 50px;
 }
