@@ -21,7 +21,11 @@ hr {
   line-height: 50px; /* same as height */
   margin: 10px;
   text-align: center;
+  transition: all .5s ease-in-out;
   vertical-align: middle; /* align text in center */
+}
+.neu:hover {
+  text-shadow: 0 0 5px white;
 }
 
 
@@ -79,10 +83,6 @@ hr {
   transform: scale(1.1);
   transition: .5s;
 }
-
-
-
-
 
 
 
