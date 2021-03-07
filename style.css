@@ -120,7 +120,9 @@ hr {
 .pill {
   border-radius: 40px;
   height: 50px;
-  width: 120px;
+  min-width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .ring {
   border: 10px solid rgba(255,255,255,0.6);
