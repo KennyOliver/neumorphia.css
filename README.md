@@ -11,7 +11,7 @@
 
 Elements based upon **neumorphic design**
 
-![IMG_2602](https://user-images.githubusercontent.com/70860732/110245926-48808380-7f5d-11eb-96c3-a1132ea6394b.jpeg)
+![IMG_2621](https://user-images.githubusercontent.com/70860732/110527002-604b3980-810e-11eb-9d83-3501443f07b8.jpeg)
 
 ---
 Kenny Oliver ©2021
