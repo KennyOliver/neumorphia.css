@@ -130,9 +130,9 @@
 
 .ring > img {
   border-radius: 50%;
-  height: 75px;
+  height: inherit;
   object-fit: cover; /* prevents stretching of image*/
-  width: 75px;
+  width: inherit;
 }
 
 .input-data {
