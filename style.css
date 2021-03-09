@@ -147,7 +147,7 @@ hr {
 .ring > img {
   border-radius: 50%;
   height: 75px;
-  object-fit: cover;
+  object-fit: cover; /* prevents stretching of image*/
   width: 75px;
 }
 
