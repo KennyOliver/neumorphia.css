@@ -147,6 +147,7 @@ hr {
 .ring > img {
   border-radius: 50%;
   height: 75px;
+  object-fit: cover;
   width: 75px;
 }
 
