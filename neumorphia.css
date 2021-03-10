@@ -145,3 +145,11 @@
 .input-data::placeholder {
   color: white;
 }
+.photo-card {
+  border-radius: 20px;
+}
+.photo-card > img {
+  height: auto;
+  margin: 5px;
+  width: 50%;
+}
