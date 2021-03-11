@@ -147,9 +147,20 @@
 }
 .photo-card {
   border-radius: 20px;
+  display: flex;
+  height: 120px;
+  width: 300px;
+}
+.photo-card > p {
+  font-size: 20px;
+  line-height: 100%;
+  margin: auto;
+  text-align: center;
 }
 .photo-card > img {
-  height: auto;
-  margin: 5px;
+  align-self: flex-end;
+  border-radius: 20px;
+  height: inherit;
+  object-fit: cover;
   width: 50%;
 }
