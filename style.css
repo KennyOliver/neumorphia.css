@@ -5,6 +5,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   height: 100%;
   margin: 20 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 hr {
   border: 2px solid rgb(255,255,255,0.2);
