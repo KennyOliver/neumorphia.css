@@ -5,7 +5,7 @@
   line-height: 50px; /* same as height */
   margin: 10px;
   text-align: center;
-  transition: all .5s ease-in-out;
+  transition: all .5s ease;
   vertical-align: middle; /* align text in center */
 }
 .neu:hover {
