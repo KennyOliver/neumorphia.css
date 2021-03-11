@@ -67,6 +67,13 @@
   transform: scale(1.1);
   transition: .5s;
 }
+.spin {
+  transition: all .5s ease-in-out;
+}
+.spin:hover {
+  transform: rotate(360deg);
+  transition: .5s;
+}
 
 
 
