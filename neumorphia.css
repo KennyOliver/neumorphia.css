@@ -152,6 +152,10 @@
 .input-data::placeholder {
   color: white;
 }
+
+
+
+/* photo-card */
 .photo-card {
   border-radius: 30px;
   display: flex;
