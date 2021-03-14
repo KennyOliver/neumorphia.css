@@ -21,5 +21,7 @@ Use this code in the header of your HTML file - neumorphia.css will be automatic
 
 ![IMG_2621](https://user-images.githubusercontent.com/70860732/110527002-604b3980-810e-11eb-9d83-3501443f07b8.jpeg)
 
+<img src="https://user-images.githubusercontent.com/70860732/110527002-604b3980-810e-11eb-9d83-3501443f07b8.jpeg" width="50%" align="center" >
+
 ---
 Kenny Oliver ©2021
