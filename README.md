@@ -5,13 +5,12 @@
 ![Repo Size](https://img.shields.io/github/repo-size/KennyOliver/neumorphia.css?style=for-the-badge)
 ![Total Lines](https://img.shields.io/tokei/lines/github/KennyOliver/neumorphia.css?style=for-the-badge)
 
-[![repl](https://repl.it/badge/github/KennyOliver/neumorphia.css)](https://repl.it/@KennyOliver/neumorphia.css)
+<!-- [![repl](https://repl.it/badge/github/KennyOliver/neumorphia.css)](https://repl.it/@KennyOliver/neumorphia.css) -->
 
-Style HTML using **neumorphia.css!**
+Make websites modern & beautiful with **neumorphia.css**!
 
-[![Website Link](https://img.shields.io/badge/See%20It%20In%20Action-252525?style=for-the-badge&logo=safari&logoColor=white&link=https://kennyoliver.github.io/neumorphia.css/)](https://kennyoliver.github.io/neumorphia.css/)
 <!-- Note: repl.it projects that have a "." in the name, have it removed -->
-
+[![Website Link](https://img.shields.io/badge/See%20It%20In%20Action-252525?style=for-the-badge&logo=safari&logoColor=white&link=https://kennyoliver.github.io/neumorphia.css/)](https://kennyoliver.github.io/neumorphia.css/)
 [![neumorphia.css](https://img.shields.io/badge/Get%20neumorphia.css-252525?style=for-the-badge&logo=css3&logoColor=white&link=https://kennyoliver.github.io/neumorphia.css/neumorphia.css)](https://kennyoliver.github.io/neumorphia.css/neumorphia.css)
 
 ## :package: Installation & Update:
