@@ -7,7 +7,7 @@
 
 [![repl](https://repl.it/badge/github/KennyOliver/neumorphia.css)](https://repl.it/@KennyOliver/neumorphia.css)
 
-[![Website Link](https://img.shields.io/badge/See%20It%20Yourself-252525?style=for-the-badge&logo=safari&logoColor=white&link=https://neumorphiacss.kennyoliver.repl.co)](https://neumorphiacss.kennyoliver.repl.co)
+[![Website Link](https://img.shields.io/badge/See%20It%20Yourself-252525?style=for-the-badge&logo=safari&logoColor=white&link=https://kennyoliver.github.io/neumorphia.css/)](https://kennyoliver.github.io/neumorphia.css/)
 <!-- Note: repl.it projects that have a "." in the name, have it removed -->
 
 Style HTML using **neumorphia.css!** :art: :thumbsup:
