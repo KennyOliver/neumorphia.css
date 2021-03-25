@@ -7,7 +7,7 @@
 
 <!-- [![repl](https://repl.it/badge/github/KennyOliver/neumorphia.css)](https://repl.it/@KennyOliver/neumorphia.css) -->
 
-Make websites modern & beautiful with **neumorphia.css**!
+**Make websites elements modern & beautiful with neumorphia.css!**
 
 <!-- Note: repl.it projects that have a "." in the name, have it removed -->
 [![Website Link](https://img.shields.io/badge/See%20It%20In%20Action-252525?style=for-the-badge&logo=safari&logoColor=white&link=https://kennyoliver.github.io/neumorphia.css/)](https://kennyoliver.github.io/neumorphia.css/)
