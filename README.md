@@ -1,4 +1,5 @@
 # neumorphia.css :art: :package:
+<img src="https://user-images.githubusercontent.com/70860732/110527002-604b3980-810e-11eb-9d83-3501443f07b8.jpeg" align="right" width="50%" >
 
 ![CodeFactor](https://www.codefactor.io/repository/github/KennyOliver/neumorphia.css/badge?style=for-the-badge)
 ![Latest SemVer](https://img.shields.io/github/v/tag/KennyOliver/neumorphia.css?label=version&sort=semver&style=for-the-badge)
@@ -18,8 +19,6 @@ Use this code in the header of your HTML file - neumorphia.css will be automatic
 ```html
 <link rel="stylesheet" href="https://kennyoliver.github.io/neumorphia.css/neumorphia.css">
 ```
-
-<img src="https://user-images.githubusercontent.com/70860732/110527002-604b3980-810e-11eb-9d83-3501443f07b8.jpeg" align="center" width="50%" >
 
 ---
 Kenny Oliver ©2021
