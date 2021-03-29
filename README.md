@@ -12,7 +12,7 @@
 
 <!-- Note: repl.it projects that have a "." in the name, have it removed -->
 [![Website Link](https://img.shields.io/badge/See%20It%20In%20Action-252525?style=for-the-badge&logo=safari&logoColor=white&link=https://kennyoliver.github.io/neumorphia.css/)](https://kennyoliver.github.io/neumorphia.css/)
-[![neumorphia.css](https://img.shields.io/badge/Get%20neumorphia.css-252525?style=for-the-badge&logo=css3&logoColor=white&link=https://kennyoliver.github.io/neumorphia.css/neumorphia.css)](https://kennyoliver.github.io/neumorphia.css/neumorphia.css)
+[![neumorphia.css](https://img.shields.io/badge/Get%20neumorphia.css-75D2AF?style=for-the-badge&logo=css3&logoColor=252525&link=https://kennyoliver.github.io/neumorphia.css/neumorphia.css)](https://kennyoliver.github.io/neumorphia.css/neumorphia.css)
 
 ## :package: Installation & Update:
 Use this code in the header of your HTML file - neumorphia.css will be automatically updated without your intervention!
