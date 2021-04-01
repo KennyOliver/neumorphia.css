@@ -61,15 +61,23 @@ Use "group" as a container for encapsulating groups of neumorphia.css elements.
 "group" can also be used within neumorphia.css elements to help structure their contents or their children elements.
 For example, grouping together 4 buttons ("squircle"/"circle") in a 2x2 arrangement.
 
+
+
 ### Elements
+
+```markdown
+____ Represents a style
+~~~~ Represents an animation
+---- Represents an element
+```
 
 #### Styling your elements
 **Give all elements the main "neu" class.**
 ```html
 <div class="neu ..."></div>
 ```
-##### Helper classes for styling (mandatory)
-:warning: your elements will not be displayed without one of these!
+##### Helper Classes for Styling (mandatory)
+:warning: Your elements will not be displayed without one of these!
 
 flat | convex | concave | inset | outset
 
@@ -90,6 +98,7 @@ Note: underscores represent a style helper class
 <hr class="hr-bar">
 ```
 
+
 #### "squircle" & "circle"
 * Basic buttons
 * Expect **1** character (or FontAwesome icon) as the content
@@ -106,6 +115,9 @@ _Don't forget the styles!_
 ```
 
 **Recommended styles:** convex | concave
+**Recommended animation:** shrink | grow
+Tip: pair "convex shrink" & "concave grow"
+
 
 #### "pill"
 * Can be used alone or inside "card"
@@ -118,16 +130,68 @@ _Don't forget the styles!_
 
 **Recommended styles:** inset | outset
 
+
 #### "card"
 * Like a container, but is an element
 * Used for holding elements
 
-**Use cases:** [profile card](#compouund-elements) | [search bar](#compound-elements)
+**Use cases:** [profile card](#create-a-basic-profile-card) | [search bar](#create-a-search-bar)
+
+
+#### "photo-card"
+* Holds images with a small description
+
+```html
+<div class="neu ____ photo-card">
+  <img class="~~~~" src="SRC">
+  <p>CONTENT</p>
+</div>
+```
+
+**Recommended styling:** flat
+**Recommended animation:** grow (for img)
+
+
+#### "ring"
+* Can contain up to four characters
+* Height/width can be changed using inline CSS
+* Content can be either text or image
+
+**:warning: "ring" doesn't support styling**
+
+```html
+<div class="neu ~~~~ ring">75%</div>
+<div class="neu ~~~~ ring"><img src="SRC"></div>
+```
+
+Note: "ring" doesn't display a percentage as a progress bar; "ring" is simply a border
+
+**Recommended animation:** grow
+**Use cases:** profile picture | percentage ring | [profile trio](#create-a-profile-trio)
+
+
+
+### Helper Classes for Animations (optional)
+* Animate certain elements
+
+grow | shrink
+
+Animations always go before an element's class, but after a style.
+```html
+<div class="neu ____ ~~~~ ----"></div>
+
+<!--
+____ Represents a style
+~~~~ Represents an animation
+---- Represents an element
+-->
+```
 
 
 
 ### Compound Elements
-Create a basic profile card
+
+#### Create a basic profile card
 ```html
 <div class="card flat">
   <div class="neu inset pill">Kenny</div>
@@ -136,7 +200,7 @@ Create a basic profile card
 </div>
 ```
 
-Create a search bar
+#### Create a search bar
 ```html
 <div class="chunk">
   <div class="group">
@@ -147,6 +211,17 @@ Create a search bar
   </div>
 </div>
 ```
+
+#### Create a profile trio
+```html<div class="chunk">
+<div class="neu grow ring"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuYxAHm4arabyDMf6wOUGc5FROT-GiteAaTg&usqp=CAU"></div>
+  <hr class="hr-bar">
+  <div class="neu grow ring"><img src="SRC"></div>
+  <hr class="hr-bar">
+  <div class="neu grow ring"><img src="https://images.moneycontrol.com/static-mcnews/2021/01/Elon-Musk-1.jpg"></div>
+</div>
+```
+
 
 ---
 Kenny Oliver ©2021
