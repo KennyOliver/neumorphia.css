@@ -59,6 +59,7 @@ Use "group" as a container for encapsulating groups of neumorphia.css elements.
 ```
 
 "group" can also be used within neumorphia.css elements to help structure their contents or their children elements.
+For example, grouping together 4 buttons ("squircle"/"circle") in a 2x2 arrangement.
 
 ### Elements
 
@@ -70,7 +71,7 @@ Use "group" as a container for encapsulating groups of neumorphia.css elements.
 ##### Helper classes for styling (mandatory)
 :warning: your elements will not be displayed without one of these!
 
-flat, convex, concave, inset, outset, 
+flat | convex | concave | inset | outset
 
 Put one of the 5 styles in the gap
 ```html
@@ -92,14 +93,60 @@ Note: underscores represent a style helper class
 #### "squircle" & "circle"
 * Basic buttons
 * Expect **1** character (or FontAwesome icon) as the content
+* Can be used in "card"
 
 _Don't forget the styles!_
 ```html
 <div class="neu ____ squircle">CONTENT</div>
 <div class="neu ____ circle">CONTENT</div>
+
+<!-- You can use FontAwesome icons -->
+<div class="neu ____ squircle"><i class="far fa-heart"></i></div>
+<div class="neu ____ circle"><i class="far fa-heart"></i></div>
 ```
 
-#### 
+**Recommended styles:** convex | concave
+
+#### "pill"
+* Can be used alone or inside "card"
+* Expects at most **6** characters when inside "card"
+* When used alone, adapts to size if it has more than **6** characters
+
+```html
+<div class="neu ____ pill"></div>
+```
+
+**Recommended styles:** inset | outset
+
+#### "card"
+* Like a container, but is an element
+* Used for holding elements
+
+**Use cases:** profile card | ![search bar](#compound-elements)
+
+
+
+### Compound Elements
+Create a basic profile card
+```html
+<div class="card flat">
+  <div class="neu inset pill">Kenny</div>
+  <div class="neu convex shrink circle"><i class="far fa-heart"></i></div>
+  <div class="neu convex shrink circle"><i class="fas fa-share"></i></div>
+</div>
+```
+
+Create a search bar
+```html
+<div class="chunk">
+  <div class="group">
+    <div class="card flat">
+      <input type="search" class="neu inset input-data" id="card-search" name="search" placeholder="Search...">
+      <div class="neu convex shrink circle"><i class="fas fa-search"></i></div>
+    </div>
+  </div>
+</div>
+```
 
 ---
 Kenny Oliver ©2021
