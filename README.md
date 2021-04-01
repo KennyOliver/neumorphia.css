@@ -67,14 +67,39 @@ Use "group" as a container for encapsulating groups of neumorphia.css elements.
 ```html
 <div class="neu ..."></div>
 ```
+##### Helper classes for styling (mandatory)
+:warning: your elements will not be displayed without one of these!
+
+flat, convex, concave, inset, outset, 
+
+Put one of the 5 styles in the gap
+```html
+<div class="neu ____"></div>
+```
+
+Note: underscores represent a style helper class
+
 
 #### "hr-bar"
 * "hr-bar" is the only exception of elements; but it's very simple to use
-* Use ```html <hr "hr-bar"> ```
+* "neu" is not needed
 * Place it wherever: between "chunk"s, "group"s, elements, etc.
 
-#### "squircle" & "circle"
+```html
+<hr class="hr-bar">
+```
 
+#### "squircle" & "circle"
+* Basic buttons
+* Expect **1** character (or FontAwesome icon) as the content
+
+_Don't forget the styles!_
+```html
+<div class="neu ____ squircle">CONTENT</div>
+<div class="neu ____ circle">CONTENT</div>
+```
+
+#### 
 
 ---
 Kenny Oliver ©2021
