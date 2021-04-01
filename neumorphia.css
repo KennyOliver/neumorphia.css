@@ -178,7 +178,8 @@
 }
 .photo-card > p::after {
   color: #CFF;
-  content: "\A Apr 21, 2021";
+  /* content: "\A Apr 21, 2021"; */
+  content: "\A ════════════";
   font-size: 10px;
   line-height: 10%;
   white-space: pre-wrap;
