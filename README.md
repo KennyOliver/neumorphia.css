@@ -122,7 +122,7 @@ _Don't forget the styles!_
 * Like a container, but is an element
 * Used for holding elements
 
-**Use cases:** profile card | [search bar](#compound-elements)
+**Use cases:** [profile card](#compouund-elements) | [search bar](#compound-elements)
 
 
 
