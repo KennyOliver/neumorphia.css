@@ -20,5 +20,13 @@ Use this code in the header of your HTML file - neumorphia.css will be automatic
 <link rel="stylesheet" href="https://kennyoliver.github.io/neumorphia.css/neumorphia.css">
 ```
 
+**Upcoming feature:** Older versions will begin to be saved within folders; so that you can use version numbers in your URL, for ease of use.
+
+---
+
+## How to use neumorphia.css :art:
+This section will go over how to incorporate elements of neumorphia.css in your HTML file.
+Make sure to refer back to this when you first begin using neumorphia.css; these instructions may change
+
 ---
 Kenny Oliver ©2021
