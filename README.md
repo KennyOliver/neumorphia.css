@@ -115,8 +115,10 @@ _Don't forget the styles!_
 ```
 
 **Recommended styles:** convex | concave
+
 **Recommended animation:** shrink | grow
-Tip: pair "convex shrink" & "concave grow"
+
+**Tip:** pair "convex shrink" & "concave grow"
 
 
 #### "pill"
@@ -149,6 +151,7 @@ Tip: pair "convex shrink" & "concave grow"
 ```
 
 **Recommended styling:** flat
+
 **Recommended animation:** grow (for img)
 
 
@@ -164,9 +167,10 @@ Tip: pair "convex shrink" & "concave grow"
 <div class="neu ~~~~ ring"><img src="SRC"></div>
 ```
 
-Note: "ring" doesn't display a percentage as a progress bar; "ring" is simply a border
+**Note:** "ring" doesn't display a percentage as a progress bar; "ring" is simply a border
 
 **Recommended animation:** grow
+
 **Use cases:** profile picture | percentage ring | [profile trio](#create-a-profile-trio)
 
 
