@@ -24,9 +24,45 @@ Use this code in the header of your HTML file - neumorphia.css will be automatic
 
 ---
 
-## How to use neumorphia.css :art:
+## :art: How to use neumorphia.css
 This section will go over how to incorporate elements of neumorphia.css in your HTML file.
-Make sure to refer back to this when you first begin using neumorphia.css; these instructions may change
+Make sure to refer back to this when you first begin using neumorphia.css; these instructions may change!
+
+### :warning: Quick Heads-Up!
+* **A light background (e.g. white) is not compatible!**
+* Elements are made from **divs**, apart from "hr-bar"
+* **"hr-bar"** is an **exception** to the guidelines for neumorphia.css
+* Instructions will be provided of how to structure your HTML code using containers provided by neumorphia.css
+
+### Styling your elements
+**Give all elements the main "neu" class.**
+```css
+<div class="neu ..."></div>
+```
+
+### Structuring your code
+neumorphia.css works best when you use containers.
+There a 2 provided: "chunk" and "group".
+
+#### "chunk"
+Use "chunk" as a container for encapsulating a section of HTML that uses neumorphia.css
+"chunk" creates a row.
+"chunk" isn't an element, and therefore does not need the main "neu" class.
+```css
+<div class="chunk"><div>
+```
+
+#### "group"
+Use "group" as a container for encapsulating groups of neumorphia.css elements.
+"group" will automatically position itself when you have many "group"s in the same "chunk"
+```css
+<div class="chunk">
+  <div class="group"></div>
+  <div class="group"></div>
+<div>
+```
+
+"group" can also be used within neumorphia.css elements to help structure their contents or their children elements.
 
 ---
 Kenny Oliver ©2021
