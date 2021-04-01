@@ -1,5 +1,5 @@
 # neumorphia.css :art: :package:
-<img src="https://user-images.githubusercontent.com/70860732/110527002-604b3980-810e-11eb-9d83-3501443f07b8.jpeg" align="right" width="50%" >
+<img src="https://user-images.githubusercontent.com/70860732/113281353-55cf2a80-92dd-11eb-887e-0286a3b0da61.jpeg" align="right" width="50%" >
 
 ![CodeFactor](https://www.codefactor.io/repository/github/KennyOliver/neumorphia.css/badge?style=for-the-badge)
 ![Latest SemVer](https://img.shields.io/github/v/tag/KennyOliver/neumorphia.css?label=version&sort=semver&style=for-the-badge)
