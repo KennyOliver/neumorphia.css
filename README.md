@@ -1,5 +1,5 @@
 # neumorphia.css :art: :package:
-<img src="example_page.jpeg" align="right" width="50%" >
+<img src="example_imgs/example_page.jpeg" align="right" width="50%" >
 
 ![CodeFactor](https://www.codefactor.io/repository/github/KennyOliver/neumorphia.css/badge?style=for-the-badge)
 ![Latest SemVer](https://img.shields.io/github/v/tag/KennyOliver/neumorphia.css?label=version&sort=semver&style=for-the-badge)
@@ -193,6 +193,8 @@ ____ Represents a style
 ### Compound Elements
 
 #### Create a basic profile card
+<img src="example_imgs/profile_card.jpeg" width="40%" >
+
 ```html
 <div class="card flat">
   <div class="neu inset pill">Kenny</div>
@@ -202,6 +204,8 @@ ____ Represents a style
 ```
 
 #### Create a search bar
+<img src="example_imgs/search_bar.jpeg" width="40%" >
+
 ```html
 <div class="chunk">
   <div class="group">
@@ -214,8 +218,11 @@ ____ Represents a style
 ```
 
 #### Create a profile trio
-```html<div class="chunk">
-<div class="neu grow ring"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuYxAHm4arabyDMf6wOUGc5FROT-GiteAaTg&usqp=CAU"></div>
+<img src="example_imgs/profile_trio.jpeg" width="40%" >
+
+```html
+<div class="chunk">
+  <div class="neu grow ring"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuYxAHm4arabyDMf6wOUGc5FROT-GiteAaTg&usqp=CAU"></div>
   <hr class="hr-bar">
   <div class="neu grow ring"><img src="SRC"></div>
   <hr class="hr-bar">
