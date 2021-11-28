@@ -1,20 +1,17 @@
 # neumorphia.css :art: :package:
-<img src="https://user-images.githubusercontent.com/70860732/113281353-55cf2a80-92dd-11eb-887e-0286a3b0da61.jpeg" align="right" width="50%" >
+<img src="example_page.jpeg" align="right" width="50%" >
 
 ![CodeFactor](https://www.codefactor.io/repository/github/KennyOliver/neumorphia.css/badge?style=for-the-badge)
 ![Latest SemVer](https://img.shields.io/github/v/tag/KennyOliver/neumorphia.css?label=version&sort=semver&style=for-the-badge)
 ![Repo Size](https://img.shields.io/github/repo-size/KennyOliver/neumorphia.css?style=for-the-badge)
 ![Total Lines](https://img.shields.io/tokei/lines/github/KennyOliver/neumorphia.css?style=for-the-badge)
 
-<!-- [![repl](https://repl.it/badge/github/KennyOliver/neumorphia.css)](https://repl.it/@KennyOliver/neumorphia.css) -->
-
 **Make websites elements modern & beautiful with neumorphia.css!**
 
 Compatible with FontAwesome!
 
-<!-- Note: repl.it projects that have a "." in the name, have it removed -->
-[![Website Link](https://img.shields.io/badge/See%20A%20Demo-252525?style=for-the-badge&logo=safari&logoColor=white&link=https://kennyoliver.github.io/neumorphia.css/)](https://kennyoliver.github.io/neumorphia.css/)
-[![neumorphia.css](https://img.shields.io/badge/Get%20neumorphia.css-75D2AF?style=for-the-badge&logo=css3&logoColor=252525&link=https://kennyoliver.github.io/neumorphia.css/neumorphia.css)](https://kennyoliver.github.io/neumorphia.css/neumorphia.css)
+[![Website Link](https://img.shields.io/badge/See%20A%20Demo-252525?style=for-the-badge&logo=safari&logoColor=white)](https://kennyoliver.github.io/neumorphia.css/)
+[![neumorphia.css](https://img.shields.io/badge/Get%20neumorphia.css-75D2AF?style=for-the-badge&logo=css3&logoColor=252525)](https://kennyoliver.github.io/neumorphia.css/neumorphia.css)
 
 ## :package: Installation & Update:
 Use this code in the header of your HTML file - neumorphia.css will be automatically updated without your intervention!
