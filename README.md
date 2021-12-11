@@ -18,10 +18,10 @@ Use this code in the header of your HTML file - neumorphia.css will be automatic
 ```html
 <link rel="stylesheet" href="https://kennyoliver.github.io/neumorphia.css/neumorphia.css">
 ```
-### :chains: Use a specific version:
-```html
-<link rel="stylesheet" href="https://raw.githubusercontent.com/KennyOliver/neumorphia.css/v3.5.26/neumorphia.css">
-```
+> #### :chains: To use a specific version:
+> ```html
+> <link rel="stylesheet" href="https://raw.githubusercontent.com/KennyOliver/neumorphia.css/v3.5.26/neumorphia.css">
+> ```
 
 ---
 
