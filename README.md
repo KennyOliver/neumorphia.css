@@ -13,13 +13,15 @@ Compatible with FontAwesome!
 [![Website Link](https://img.shields.io/badge/See%20A%20Demo-252525?style=for-the-badge&logo=safari&logoColor=white)](https://kennyoliver.github.io/neumorphia.css/)
 [![neumorphia.css](https://img.shields.io/badge/Get%20neumorphia.css-75D2AF?style=for-the-badge&logo=css3&logoColor=252525)](https://kennyoliver.github.io/neumorphia.css/neumorphia.css)
 
-## :package: Installation & Update:
+## :package: Dynamic Installation & Updating:
 Use this code in the header of your HTML file - neumorphia.css will be automatically updated without your intervention!
 ```html
 <link rel="stylesheet" href="https://kennyoliver.github.io/neumorphia.css/neumorphia.css">
 ```
-
-**Upcoming feature:** Older versions will begin to be saved within folders; so that you can use version numbers in your URL, for ease of use.
+### :chains: Use a specific version:
+```html
+<link rel="stylesheet" href="https://raw.githubusercontent.com/KennyOliver/neumorphia.css/v3.5.26/neumorphia.css">
+```
 
 ---
 
