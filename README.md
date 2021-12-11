@@ -61,6 +61,8 @@ Use "group" as a container for encapsulating groups of neumorphia.css elements.
 For example, grouping together 4 buttons ("squircle"/"circle") in a 2x2 arrangement.
 
 
+---
+
 
 ### Elements
 
@@ -86,6 +88,9 @@ Put one of the 5 styles in the gap
 ```
 
 Note: underscores represent a style helper class
+
+
+---
 
 
 #### "hr-bar"
@@ -173,6 +178,8 @@ _Don't forget the styles!_
 **Use cases:** profile picture | percentage ring | [profile trio](#create-a-profile-trio)
 
 
+---
+
 
 ### Helper Classes for Animations (optional)
 * Animate certain elements
@@ -190,6 +197,8 @@ ____ Represents a style
 -->
 ```
 
+
+---
 
 
 ### Compound Elements
