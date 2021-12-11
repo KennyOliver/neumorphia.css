@@ -166,14 +166,13 @@ _Don't forget the styles!_
 * Height/width can be changed using inline CSS
 * Content can be either text or image
 
-**:warning: "ring" doesn't support styling**
-
 ```html
 <div class="neu ~~~~ ring">75%</div>
 <div class="neu ~~~~ ring"><img src="SRC"></div>
 ```
 
-**Note:** "ring" doesn't display a percentage as a progress bar; `"ring"` is simply a border
+> **:warning: "ring" doesn't support styling**
+> **Note:** "ring" doesn't display a percentage as a progress bar; `"ring"` is simply a border
 
 **Recommended animation:** grow
 
